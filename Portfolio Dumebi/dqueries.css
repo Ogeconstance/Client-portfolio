@@ -1,0 +1,68 @@
+@media screen and (max-width: 900px) {
+#desktop-nav {
+    display: none;
+}
+#hamburger-nav {
+    display: flex;
+}
+}
+
+
+/*SPRINTAID PAGE*/
+.sprint-head {
+    margin: 150px;
+}
+
+.sprint-head h4 {
+    color: rgb(161,94,73);
+    margin: 0px;
+}
+
+.sprint-head h1 {
+    color: rgb(98,131,149);
+    font-size: 50px;
+}
+
+.sprint-head p {
+    font-size: 18px;
+    line-height: 1.8em;
+}
+
+.sprint-head img {
+    border: 4px solid rgb(98 131 149);
+    border-radius: 25px;
+    float: right;
+    margin-top: -200px;
+    margin-right: 100px;
+}
+
+.overview {
+    margin-top: 100px;
+}
+
+.overview h2 {
+    color: rgb(98,131,149);
+    margin-bottom: 30px;
+
+}
+
+.overview p {
+    line-height: 1.8em;
+    font-size: 18px;
+}
+
+.over-link {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 951px;
+    margin: 6px;
+    color: rgb(98, 131, 149); /* Blue background color */
+    margin: 10px;
+    font-weight: bold;
+
+}
+
+.over-link:hover {
+    text-decoration-line: underline;
+}   
